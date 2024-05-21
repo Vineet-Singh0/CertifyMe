@@ -1,0 +1,114 @@
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: 'Bitter','serif';
+    box-sizing: border-box;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Image/Background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.btn button {
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    top: 20px;
+    left: 1150px;
+   }
+   
+   
+   .btn button::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #39A4F1 0%, #99D4FF 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   .btn button:hover::before {
+       cursor: pointer;
+    width: 9em;
+   }
+
+   p {
+    font-family: "Bitter", sans-serif;
+    line-height: 2em;
+    display: inline;
+   }
+  .header{
+      margin-top: 140px;
+      padding-left: 30px;
+  }
+  .Title{
+    font-size: 45px;
+    font-weight: bolder;
+  }
+  .original {
+      padding-left: 40px;
+      padding-right: 800px;
+      padding-top: 15px;
+  }
+    .register{
+        padding-left: 60px;
+        padding-top: 30px;
+    }
+  .register button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #1192EF;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 16px;
+    width: 160px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+   }
+   
+   .register button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+   }
+   
+   .register button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+   }
+   
+   .register button:hover span {
+    padding-right: 15px;
+   }
+   
+   .register button:hover span:after {
+    opacity: 1;
+    right: 0;
+   }
+  .form-container{
+      background: url(Login/Image/Login.jpg);
+  }
+
+  
