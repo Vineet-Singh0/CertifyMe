@@ -33,8 +33,6 @@ Follow these instructions to set up the project on your local machine.
 
 ![User Page](Screenshots/Student-dashboard.png)
 
-![Admin Page](Screenshots/admin-dashboard.png)
-
 ## 📫 Contact
 
 Vineet Vinod Singh -[Vineet's LinkedIn](https://www.linkedin.com/in/vineet-vinod-singh/)
